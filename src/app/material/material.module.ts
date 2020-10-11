@@ -5,10 +5,12 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatStepperModule } from '@angular/material/stepper';
+import { MatTooltipModule } from '@angular/material/tooltip';
+
+
 
 const material = [MatButtonModule, MatMenuModule, MatExpansionModule, MatCardModule, MatGridListModule,
-MatStepperModule
-]
+MatStepperModule, MatTooltipModule]
 
 @NgModule({
   declarations: [],
